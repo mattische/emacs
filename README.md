@@ -27,7 +27,11 @@ Extract the archive:
 $ tar xjf auto-complete-X.Y.Z.tar.bz2.
 ```
 
-Open emacs and load the file auto-complete-X.Y.Z/etc/install.el
+Open emacs and load the file auto-complete-X.Y.Z/etc/install.el;<br>
+in emacs, run <br>
+M-x load-file
+<br>
+and specify the path to the file
 <br>
 Of course you will choose install location to be ~/.emacs.d/lisp<br>
 Paste the code shown into your ~/.emacs<br>
