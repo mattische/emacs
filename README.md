@@ -21,7 +21,7 @@ Installing autocomplete is pretty straightforward:
 We will install autocomplete into ~/.emacs.d/lisp/<br>
 <br>Download the latest tar from http://cx4a.org/pub/auto-complete/
 <br>
-Extract tar with tar
+Extract the archive:
 
 ```bash
 $ tar xjf auto-complete-X.Y.Z.tar.bz2.
