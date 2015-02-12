@@ -5,7 +5,9 @@ this is my emacs config files.
 Preferably, create a folder inside ~/.emacs.d. The convention is something like lisp.
 This is the folder where you want to put/install your stuff.
 
+```bash
 $ mkdir -p ~/.emacs.d/lisp
+```
 
 ## Package management
 Nothing strange - Im fine with melpa.
