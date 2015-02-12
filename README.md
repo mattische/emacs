@@ -21,54 +21,55 @@ have a look here for setting up emacs as you Go editor;
 Installing autocomplete is pretty straightforward:
 <br>
 
-<ol>
-  <li>We will install autocomplete into ~/.emacs.d/lisp/
-    <br>Download the latest tar from http://cx4a.org/pub/auto-complete/</li>
 
-  <li>Extract tar with tar
-  ```bash
-  $ xjf auto-complete-X.Y.Z.tar.bz2.
-  ```
-  </li>
-  
-  <li>Open emacs and load the file auto-complete-X.Y.Z/etc/install.el                                                   <br>
-   Of course you will choose install location to be ~/.emacs.d/lisp                                                     Paste the code shown into your ~/.emacs                                                                           
-   The code will look something like;
-   
-        ```lisp
-        (add-to-list 'load-path "~/.emacs.d/lisp")
-        (require 'auto-complete-config)
-        (add-to-list 'ac-dictionary-directories "~/.emacs.d/lisp/ac-dict")
-        (ac-config-default)
-        ```
-	
-  <br>
-  Autocomplete is now installed. To make it work with go, we also need to get go-autocomplete.
-  </li>
-  
-  <li>Run:<br>
+We will install autocomplete into ~/.emacs.d/lisp/<br>
+<br>Download the latest tar from http://cx4a.org/pub/auto-complete/
 
-        ```bash
-        $ go get -u -v github.com/nsf/gocode
-        ```
+Extract tar with tar
 
-</li>
-  
-  <li>copy the go-autocomplete to your ~/.emacs.d/lisp folder;
+```bash
+$ xjf auto-complete-X.Y.Z.tar.bz2.
+```
 
-        ```bash
-        $ cp $GOPATH/src/github.com/nsf/gocode/emacs/go-autocomplete.el ~/.emacs.d/lisp
-        ```
-	
-  </li>
-  
-  <li>insert the following into your .emacs:
+<br>  
+ Open emacs and load the file auto-complete-X.Y.Z/etc/install.el
+ <br>
+Of course you will choose install location to be ~/.emacs.d/lisp<br>
+Paste the code shown into your ~/.emacs<br>
+The code will look something like;<br>
 
-        ```lisp
-        (require 'go-autocomplete)
-        (require 'auto-complete-config)
-        ```
-  </li>
-</ol>
+```lisp
+(add-to-list 'load-path "~/.emacs.d/lisp")
+(require 'auto-complete-config)
+(add-to-list 'ac-dictionary-directories "~/.emacs.d/lisp/ac-dict")
+(ac-config-default)
+```
+
+<br>
+Autocomplete is now installed. To make it work with go, we also need to get go-autocomplete.
+<br>
+Run:<br>
+
+
+```bash
+$ go get -u -v github.com/nsf/gocode
+```
+
+<br>
+copy the go-autocomplete to your ~/.emacs.d/lisp folder;
+
+```bash
+$ cp $GOPATH/src/github.com/nsf/gocode/emacs/go-autocomplete.el ~/.emacs.d/lisp
+```
+	  
+<br>
+insert the following into your .emacs:
+<br>
+
+```lisp
+(require 'go-autocomplete)
+(require 'auto-complete-config)
+```
+<br>
 <br>
 You might also want to add hooks for building when saving and the go-oracle.
