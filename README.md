@@ -15,12 +15,14 @@ have a look here for setting up emacs as you Go editor;
 http://tleyden.github.io/blog/2014/05/22/configure-emacs-as-a-go-editor-from-scratch/
 
 
-Install autocomplete is pretty straightforward:
+Installing autocomplete is pretty straightforward:
+
 0) We will install autocomplete into ~/.emacs.d/lisp/                             
 1) Download the latest tar from http://cx4a.org/pub/auto-complete/                                                   2) Extract tar with tar xjf auto-complete-X.Y.Z.tar.bz2.                                                             
 3) Open emacs and load the file auto-complete-X.Y.Z/etc/install.el                                                   
    Of course you will choose install location to be ~/.emacs.d/lisp                                                     Paste the code shown into your ~/.emacs                                                                           
    The code will look something like;
+   
    (add-to-list 'load-path "~/.emacs.d/lisp")
    (require 'auto-complete-config)
    (add-to-list 'ac-dictionary-directories "~/.emacs.d/lisp/ac-dict")
