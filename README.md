@@ -17,23 +17,18 @@ Nothing strange - Im fine with melpa.
 have a look here for setting up emacs as you Go editor;
 <br>http://tleyden.github.io/blog/2014/05/22/configure-emacs-as-a-go-editor-from-scratch/
 <br>
-<br>
 Installing autocomplete is pretty straightforward:
-<br>
-
-
 We will install autocomplete into ~/.emacs.d/lisp/<br>
 <br>Download the latest tar from http://cx4a.org/pub/auto-complete/
-
+<br>
 Extract tar with tar
 
 ```bash
 $ xjf auto-complete-X.Y.Z.tar.bz2.
 ```
 
-<br>  
- Open emacs and load the file auto-complete-X.Y.Z/etc/install.el
- <br>
+Open emacs and load the file auto-complete-X.Y.Z/etc/install.el
+<br>
 Of course you will choose install location to be ~/.emacs.d/lisp<br>
 Paste the code shown into your ~/.emacs<br>
 The code will look something like;<br>
