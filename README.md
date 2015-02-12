@@ -1,7 +1,7 @@
 # emacs
 this is my emacs config files.
 
-## emacs and autoload
+## emacs and loadpath
 Preferably, create a folder inside ~/.emacs.d. The convention is something like lisp.
 This is the folder where you want to put/install your stuff.
 
