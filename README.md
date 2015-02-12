@@ -24,7 +24,7 @@ We will install autocomplete into ~/.emacs.d/lisp/<br>
 Extract tar with tar
 
 ```bash
-$ xjf auto-complete-X.Y.Z.tar.bz2.
+$ tar xjf auto-complete-X.Y.Z.tar.bz2.
 ```
 
 Open emacs and load the file auto-complete-X.Y.Z/etc/install.el
