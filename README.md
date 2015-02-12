@@ -20,7 +20,8 @@ http://tleyden.github.io/blog/2014/05/22/configure-emacs-as-a-go-editor-from-scr
 Installing autocomplete is pretty straightforward:
 
 0) We will install autocomplete into ~/.emacs.d/lisp/                             
-1) Download the latest tar from http://cx4a.org/pub/auto-complete/                                                   2) Extract tar with tar
+1) Download the latest tar from http://cx4a.org/pub/auto-complete/
+2) Extract tar with tar
 
 ```bash
 $ xjf auto-complete-X.Y.Z.tar.bz2.
