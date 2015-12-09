@@ -71,4 +71,15 @@ insert the following into your .emacs:
 ```
 <br>
 <br>
-You might also want to add hooks for building when saving and the go-oracle.
+You might also want to add hooks for building when saving and the go-oracle.  
+<br>
+<br>
+Some other useful stuff;  
+```go get -u -v github.com/nsf/gocode  
+go get -u -v github.com/rogpeppe/godef  
+go get -u -v github.com/golang/lint/golint  
+go get -u -v github.com/lukehoban/go-find-references  
+go get -u -v github.com/lukehoban/go-outline  
+go get -u -v sourcegraph.com/sqs/goreturns  
+go get -u -v golang.org/x/tools/cmd/gorename  
+```
