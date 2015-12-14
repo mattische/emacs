@@ -1,10 +1,10 @@
 # emacs
 tget the latest version (snapshot) of emacs:  
-	```sudo add-apt-repository -y ppa:ubuntu-elisp  
+	`sudo add-apt-repository -y ppa:ubuntu-elisp  
 	
 	sudo apt-get update  
 	
-	sudo apt-get install emacs-snapshot```
+	sudo apt-get install emacs-snapshot`
 
 ## emacs and loadpath
 Preferably, create a folder inside ~/.emacs.d. The convention is something like lisp.
