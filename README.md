@@ -4,13 +4,21 @@ Get the latest version (snapshot) of emacs:
 	`$ sudo apt-get update`  
 	`$ sudo apt-get install emacs-snapshot`
 
-## emacs and loadpath
-Preferably, create a folder inside `~/.emacs.d`. The convention is something like lisp.
-This is the folder where you want to put/install your stuff.
+## emacs go-mode, go-mode and loadpath
+Preferably, create a folder lisp inside your .emacs.d, where to put/install your stuff;
 
 ```bash
 $ mkdir -p ~/.emacs.d/lisp
 ```
+
+<br>
+To get go-mode and go-mode-autoload manually, put these two files in your ~/.emacs.d/lisp directory;  
+`$ wget https://raw.githubusercontent.com/dominikh/go-mode.el/master/go-mode.el`  
+`$ wget https://raw.githubusercontent.com/dominikh/go-mode.el/master/go-mode-autoloads.el`  
+
+Then put this in your `~/.emacs`:  
+		(add-to-list 'load-path "/home/your_user/.emacs.d/lisp/")
+		(require 'go-mode-autoloads)
 
 ## Package management
 Nothing strange - Im fine with melpa.
