@@ -17,8 +17,8 @@ To get go-mode and go-mode-autoload manually, put these two files in your ~/.ema
 `$ wget https://raw.githubusercontent.com/dominikh/go-mode.el/master/go-mode-autoloads.el`  
 
 Then put this in your `~/.emacs`:  
-		(add-to-list 'load-path "/home/your_user/.emacs.d/lisp/")
-		(require 'go-mode-autoloads)
+		`(add-to-list 'load-path "/home/your_user/.emacs.d/lisp/")`  
+		`(require 'go-mode-autoloads)`
 
 ## Package management
 Nothing strange - Im fine with melpa.
