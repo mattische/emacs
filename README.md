@@ -4,6 +4,10 @@
 + <a href="https://github.com/mattische/emacs/blob/master/README.md#other-stuff">go stuff for emacs</a>
 + <a href="https://github.com/mattische/emacs/blob/master/README.md#line-number-and-increasing-font-size">Increase font size and enable line numbering</a>
 
+_if on windows, your .emacs and .emacs.d resides in c:\Users\username\AppData\Roaming_
+
+
+
 #get latest version of emacs (snapshot) on ubuntu  
 
 Get the latest version (snapshot) of emacs by adding elisp repo:  
