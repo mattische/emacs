@@ -1,10 +1,23 @@
-# emacs
+#go-autocomplete in emacs24-nox (ubuntu)
+First make sure you have the correct entries for melpa in your .emacs. Enter this into your ~/.emacs;  
+		(require 'package) ;; You might already have this line
+		(add-to-list 'package-archives
+		             '("melpa" . "https://melpa.org/packages/"))
+		(when (< emacs-major-version 24)
+		  ;; For important compatibility libraries like cl-lib
+		  (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
+		(package-initialize) ;; You might already have this line  
+		
+(_source: http://stable.melpa.org/#/getting-started_)
+
+#get latest version of emacs (snapshot) on ubuntu  
+
 Get the latest version (snapshot) of emacs:  
 	`$ sudo add-apt-repository -y ppa:ubuntu-elisp`  
 	`$ sudo apt-get update`  
 	`$ sudo apt-get install emacs-snapshot`
 
-## emacs go-mode, go-mode and loadpath
+**emacs go-mode, go-mode in emacs snapshot**  
 Preferably, create a folder lisp inside your .emacs.d, where to put/install your stuff;
 
 ```bash
