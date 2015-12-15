@@ -1,12 +1,12 @@
 #go-autocomplete in emacs24-nox (ubuntu)
 First make sure you have the correct entries for melpa in your .emacs. Enter this into your ~/.emacs;  
-		(require 'package) ;; You might already have this line  
+		`(require 'package) ;; You might already have this line  
 		(add-to-list 'package-archives  
 		             '("melpa" . "https://melpa.org/packages/"))  
 		(when (< emacs-major-version 24)  
 		  ;; For important compatibility libraries like cl-lib  
 		  (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))  
-		(package-initialize) ;; You might already have this line  
+		(package-initialize) ;; You might already have this line`  
 		
 (_source: http://stable.melpa.org/#/getting-started_)
 
