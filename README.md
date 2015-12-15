@@ -32,7 +32,7 @@ Now install `auto-complete` from within emacs with;
 		(require 'auto-complete-config)  
 		(ac-config-default)` 
 
-
+Look here; https://github.com/nsf/gocode#emacs-setup
 
 
 #get latest version of emacs (snapshot) on ubuntu  
