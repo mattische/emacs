@@ -14,12 +14,12 @@
 			(add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))    
 		(package-initialize) ;; You might already have this line`  
 		
-(_source: http://stable.melpa.org/#/getting-started_)
-
-Now install `auto-complete` from within emacs with;  
-`M-x package-install <ret> auto-complete <ret>`  
-Also, install go-mode;  
-`M-x package-install <ret> go-mode <ret>`  
+	(_source: http://stable.melpa.org/#/getting-started_)
+	
+	Now install `auto-complete` from within emacs with;  
+	`M-x package-install <ret> auto-complete <ret>`  
+	Also, install go-mode;  
+	`M-x package-install <ret> go-mode <ret>`  
 
 + **copy go-autocomplete.el**  
    When you installed `gocode` in the first step, it installed go-autocomplete in your go workspace dir.  
