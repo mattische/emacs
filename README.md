@@ -11,6 +11,11 @@ First make sure you have the correct entries for melpa in your .emacs. Enter thi
 		
 (_source: http://stable.melpa.org/#/getting-started_)
 
++ Install `auto-complete` from within emacs with;  
+`M-x package-install <ret> auto-complete <ret>`  
+
+
+
 #get latest version of emacs (snapshot) on ubuntu  
 
 Get the latest version (snapshot) of emacs:  
