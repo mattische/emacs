@@ -28,11 +28,11 @@ Now install `auto-complete` from within emacs with;
    `(add-to-list 'load-path "~/.emacs.d/lisp/")`  
     
    Now add these lines to your ~/.emacs (load go-autocomplete);  
-		`(require 'go-autocomplete)  
+		(require 'go-autocomplete)  
 
 		(require 'auto-complete-config)  
 		
-		(ac-config-default)`
+		(ac-config-default)
 
 
 
