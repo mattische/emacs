@@ -1,5 +1,7 @@
 #go-autocomplete in emacs24-nox (ubuntu)
-1. **Install auto-complete**  
+1. **go-code**  
+   It is assúmed that you have a working go environment, including GOPATH. See setup here; https://github.com/nsf/gocode#setup  
+2. **Install auto-complete**  
    Make sure you have the correct entries for melpa in your .emacs. Enter this into your ~/.emacs;  
 
 		`(require 'package) ;; You might already have this line  
@@ -12,8 +14,10 @@
 		
 (_source: http://stable.melpa.org/#/getting-started_)
 
-2. Install `auto-complete` from within emacs with;  
+Now install `auto-complete` from within emacs with;  
 `M-x package-install <ret> auto-complete <ret>`  
+
+ 
 
 
 
