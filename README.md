@@ -43,7 +43,25 @@
 		`(require 'auto-complete-config)`  
 		`(ac-config-default)` 
 
-Look here; https://github.com/nsf/gocode#emacs-setup
+Look here; https://github.com/nsf/gocode#emacs-setup  
+<br>
+Example of complete ~/.emacs;  
+
+		(require 'package) ;; You might already have this line
+		(add-to-list 'package-archives
+		             '("melpa" . "https://melpa.org/packages/"))
+		(when (< emacs-major-version 24)
+		  ;; For important compatibility libraries like cl-lib
+		  (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
+		(package-initialize) ;; You might already have this line
+		
+		(add-to-list 'load-path "~/.emacs.d/lisp/")
+		
+		(require 'go-autocomplete)
+		(require 'auto-complete-config)
+		(ac-config-default)
+
+
 
 
 #get latest version of emacs (snapshot) on ubuntu  
