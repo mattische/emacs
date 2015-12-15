@@ -6,8 +6,9 @@
 
    It is recommended to have your GOPATH/bin dir in your path to make gocode work correctly.  
    Example;  
-		`export PATH=$PATH:/usr/local/go/bin
-		export GOPATH=~//go
+   
+		`export PATH=$PATH:/usr/local/go/bin  
+		export GOPATH=~//go  
 		export PATH=$PATH:$GOPATH/bin #recommended to add bin`  
 
 + **Install auto-complete**  
