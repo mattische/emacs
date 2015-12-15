@@ -90,3 +90,13 @@ Some other useful stuff;
 			go get -u -v sourcegraph.com/sqs/goreturns  
 			go get -u -v golang.org/x/tools/cmd/gorename  
 
+#line number and increasing font size  
+**increase font size**  
+from emacs 23 and above increasing font size is easy with this command inside emacs;
+	`C-x C-+`  
+
+**enable line numbers**  
+1. turn it on or off with  `M-x global-linum-mode`  
+2. or in your ~/emacs: `(global-linum-mode 't)`  
+
+
