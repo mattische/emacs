@@ -1,8 +1,8 @@
 **Contents**  
-+ get emacs snapshot for ubuntu - https://github.com/mattische/emacs/blob/master/README.md#get-latest-version-of-emacs-snapshot-on-ubuntu
-+ emacs + go == true - https://github.com/mattische/emacs/blob/master/README.md#go-autocomplete-in-emacs24-nox-ubuntu
-+ go stuff for emacs - https://github.com/mattische/emacs/blob/master/README.md#other-stuff
-+ Increase font size and enable line numbering - https://github.com/mattische/emacs/blob/master/README.md#line-number-and-increasing-font-size
++ <a href="https://github.com/mattische/emacs/blob/master/README.md#get-latest-version-of-emacs-snapshot-on-ubuntu">get emacs snapshot for ubuntu</a> 
++ <a href="https://github.com/mattische/emacs/blob/master/README.md#go-autocomplete-in-emacs24-nox-ubuntu">emacs + go == true</a>
++ <a href="https://github.com/mattische/emacs/blob/master/README.md#other-stuff">go stuff for emacs</a>
++ <a href="https://github.com/mattische/emacs/blob/master/README.md#line-number-and-increasing-font-size">Increase font size and enable line numbering</a>
 
 #get latest version of emacs (snapshot) on ubuntu  
 
