@@ -1,3 +1,8 @@
+**Contents**  
++
++
++ Increase font size and enable line numbering - https://github.com/mattische/emacs/blob/master/README.md#line-number-and-increasing-font-size
+
 #get latest version of emacs (snapshot) on ubuntu  
 
 Get the latest version (snapshot) of emacs by adding elisp repo:  
