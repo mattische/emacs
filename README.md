@@ -1,8 +1,8 @@
 #go-autocomplete in emacs24-nox (ubuntu)
-1. **go-code**  
++ **go-code**  
    It is assumed that you have a working go environment, including GOPATH. Also, we need `gocode` - follow url below.    
    See setup for GOPATH and gocode here; https://github.com/nsf/gocode#setup  
-2. **Install auto-complete**  
++ **Install auto-complete**  
    Make sure you have the correct entries for melpa in your .emacs. Enter this into your ~/.emacs;  
 
 		`(require 'package) ;; You might already have this line  
@@ -18,8 +18,8 @@
 Now install `auto-complete` from within emacs with;  
 `M-x package-install <ret> auto-complete <ret>`  
 
-3. **copy go-autocomplete.el**  
-   When you installed `gocode` in step 1, it installed go-autocomplete in your go workspace dir.  
++ **copy go-autocomplete.el**  
+   When you installed `gocode` in the first step, it installed go-autocomplete in your go workspace dir.  
    Copy it to a directory available in your emacs loadpath. A standard way of adding own stuff is to add a lisp directory inside your ~/.emacs.d    
   `$mkdir -p ~/.emacs.d/lisp`  
    then copy go-autocomplete into it;  
@@ -27,7 +27,12 @@ Now install `auto-complete` from within emacs with;
    To add that directory to emacs loadpath, open up your ~/.emacs and add this line;  
    `(add-to-list 'load-path "~/.emacs.d/lisp/")`  
     
-   
+   Now add these lines to your ~/.emacs (load go-autocomplete);  
+		`(require 'go-autocomplete)  
+
+		(require 'auto-complete-config)  
+		
+		(ac-config-default)`
 
 
 
