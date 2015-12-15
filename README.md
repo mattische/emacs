@@ -24,7 +24,7 @@ Now install `auto-complete` from within emacs with;
   `$mkdir -p ~/.emacs.d/lisp`  
    then copy go-autocomplete into it;  
    `$ cp ~/your_go_workspace/src/github.com/nsf/gocode/emacs/go-autocomplete.el ~/.emacs.d/lisp/`  
-   To add that directory to emacs loadpath, open up your ~/.emacs and add this line; 
+   To add that directory to emacs loadpath, open up your ~/.emacs and add this line;  
    `(add-to-list 'load-path "~/.emacs.d/lisp/")`  
     
    
