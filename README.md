@@ -1,5 +1,6 @@
 #go-autocomplete in emacs24-nox (ubuntu)
 First make sure you have the correct entries for melpa in your .emacs. Enter this into your ~/.emacs;  
+
 		`(require 'package) ;; You might already have this line  
 		(add-to-list 'package-archives    
 			'("melpa" . "https://melpa.org/packages/"))    
