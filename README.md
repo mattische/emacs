@@ -23,7 +23,7 @@
 
 + **copy go-autocomplete.el**  
    When you installed `gocode` in the first step, it installed go-autocomplete in your go workspace dir.  
-   Copy it to a directory available in your emacs loadpath. A standard way of adding own stuff is to add a lisp directory inside your ~/.emacs.d    
+   You should copy the go-autocomplete.el to a directory available in your emacs loadpath. A standard way of adding own stuff is to add a lisp directory inside your ~/.emacs.d    
   `$mkdir -p ~/.emacs.d/lisp`  
    then copy go-autocomplete into it;  
    `$ cp ~/your_go_workspace/src/github.com/nsf/gocode/emacs/go-autocomplete.el ~/.emacs.d/lisp/`  
