@@ -5,7 +5,7 @@
    `$ go get -u -v github.com/nsf/gocode`  
 
    It is recommended to have your GOPATH/bin dir in your path to make gocode work correctly.  
-   Example;  
+   Example in ~/.bashrc or ~/.profile;  
    
 		export PATH=$PATH:/usr/local/go/bin  
 		export GOPATH=~//go  
