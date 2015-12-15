@@ -8,8 +8,8 @@
    Example in ~/.bashrc or ~/.profile;  
    
 		export PATH=$PATH:/usr/local/go/bin  
-		export GOPATH=~//go  
-		export PATH=$PATH:$GOPATH/bin #recommended to add bin  
+		export GOPATH=~/go                       #~/go is the go workspace
+		export PATH=$PATH:$GOPATH/bin            #recommended to add bin  
 
 + **Install auto-complete**  
    Make sure you have the correct entries for melpa in your .emacs. Enter this into your ~/.emacs;  
