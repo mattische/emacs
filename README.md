@@ -1,3 +1,14 @@
+#get latest version of emacs (snapshot) on ubuntu  
+
+Get the latest version (snapshot) of emacs by adding elisp repo:  
+	`$ sudo add-apt-repository -y ppa:ubuntu-elisp`  
+	`$ sudo apt-get update`  
+	`$ sudo apt-get install emacs-snapshot-nox`
+
+The process of enabling go support in emacs snapshot, should be the same as for older versions (follow instrunctions below i.e)  
+<br>
+<br>
+
 #go-autocomplete in emacs24-nox (ubuntu)
 + **go-code**  
    It is assumed that you have a working go environment, including GOPATH. Also, we need `gocode` - follow url below.    
@@ -64,16 +75,7 @@ Example of complete ~/.emacs;
 
 
 
-#get latest version of emacs (snapshot) on ubuntu  
 
-Get the latest version (snapshot) of emacs:  
-	`$ sudo add-apt-repository -y ppa:ubuntu-elisp`  
-	`$ sudo apt-get update`  
-	`$ sudo apt-get install emacs-snapshot-nox`
-
-The process of enabling go support in emacs snapshot, should be the same as for older versions (follow instrunctions above i.e)  
-<br>
-<br>
 #other stuff  
 You might also want to add hooks for building when saving and the go-oracle.  
 <br>
