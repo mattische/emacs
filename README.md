@@ -103,6 +103,8 @@ Some other useful stuff;
 **increase font size**  
 from emacs 23 and above increasing font size is easy with this command inside emacs;
 	`C-x C-+`  
+decrease with;
+	`C-x C--`  
 
 **enable line numbers**  
 1. turn it on or off with  `M-x global-linum-mode`  
