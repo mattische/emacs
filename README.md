@@ -2,7 +2,7 @@
 + <a href="https://github.com/mattische/emacs/blob/master/README.md#get-latest-version-of-emacs-snapshot-on-ubuntu">get emacs snapshot for ubuntu</a> 
 + <a href="https://github.com/mattische/emacs/blob/master/README.md#go-autocomplete-in-emacs24-nox-ubuntu">emacs + go == true</a>
 + <a href="https://github.com/mattische/emacs/blob/master/README.md#other-stuff">go stuff for emacs</a>
-+ <a href="https://github.com/mattische/emacs/blob/master/README.md#line-number-and-increasing-font-size">Increase font size and enable line numbering</a>
++ <a href="https://github.com/mattische/emacs/blob/master/README.md#line-number-and-increasing-font-size">Other emacs stuff (font size, line numbering etc)</a>
 
 _if on windows, your .emacs and .emacs.d resides in c:\Users\username\AppData\Roaming_
 
@@ -112,5 +112,9 @@ Or in emacs; `M-x text-scale-increase` and `M-x text-scale-decrase` respectivley
 **enable line numbers**  
 1. turn it on or off with  `M-x global-linum-mode`  
 2. or in your ~/emacs: `(global-linum-mode 't)`  
+
+
+**Smart paranthesis, brackets and curly braces**  
+Check ot this repo: https://github.com/Fuco1/smartparens
 
 
