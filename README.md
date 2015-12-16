@@ -22,7 +22,7 @@ The process of enabling go support in emacs snapshot, should be the same as for 
 #go-autocomplete in emacs24-nox (ubuntu)
 + **go-code**  
    It is assumed that you have a working go environment, including GOPATH. Also, we need `gocode` - follow url below.    
-   See setup for GOPATH and gocode here; https://github.com/nsf/gocode#setup  
+   For the curious - see setup for GOPATH and gocode here; https://github.com/nsf/gocode#setup  
    `$ go get -u -v github.com/nsf/gocode`  
 
    It is recommended to have your GOPATH/bin dir in your path to make gocode work correctly.  
@@ -45,7 +45,7 @@ The process of enabling go support in emacs snapshot, should be the same as for 
 		
 	(_source: http://stable.melpa.org/#/getting-started_)
 	
-	Now install `auto-complete` from within emacs with;  
+	Now install `auto-complete` from within emacs;  
 	`M-x package-install <ret> auto-complete <ret>`  
 	Also, install go-mode;  
 	`M-x package-install <ret> go-mode <ret>`  
@@ -64,9 +64,9 @@ The process of enabling go support in emacs snapshot, should be the same as for 
 		`(require 'auto-complete-config)`  
 		`(ac-config-default)` 
 
-Look here; https://github.com/nsf/gocode#emacs-setup  
+   Look here; https://github.com/nsf/gocode#emacs-setup  
 <br>
-Example of complete ~/.emacs;  
+   Example of complete ~/.emacs;  
 
 		(require 'package) ;; You might already have this line
 		(add-to-list 'package-archives
@@ -82,8 +82,7 @@ Example of complete ~/.emacs;
 		(require 'auto-complete-config)
 		(ac-config-default)
 
-
-
+	Now you're good to go!
 
 
 #other stuff  
