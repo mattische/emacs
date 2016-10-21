@@ -4,12 +4,14 @@ Remember - emacs-live does not play well with emacs-snapshot. Use 24.5 or 25 ins
   https://github.com/overtone/emacs-live
 - http://learnlispthehardway.org/book/1-01-09-emacs-live/#set-up-and-learn-emacs-live
 
-***Installing***
+***Installing
+
 If not using the *broscript*, beware to put aside your `~/.emacs.d and /.emacs`.
 Create `~/.emacs-live`
 Your stuff lives in `~/.live-packs/username-pack/`
 In there you'll find init.el (to be used in conjunction with ~/.emacs-live).
 i.e if your using ox-reveal with org-mode, load package archives in ~/.emacs-live;
+
 `(require 'package)
 add-to-list 'package-archives    
 			'("marmalade" . "https://marmalade.org/packages/") t) 
@@ -20,8 +22,17 @@ add-to-list 'package-archives
 (package-initialize)
 
 ;;create this directory
-(live-append-packs '(~/.live-packs/mattische-pack))
-`
+(live-append-packs '(~/.live-packs/mattische-pack))`
+
+
+***org-reveal
+Download ox-reveal from https://github.com/yjwen/org-reveal
+Place it in lib folder in ~/.live-packs/username-pack/lib/ox-reveal
+Load it in ~/live-packs/mattische-pack/init.el;
+`(live-add-pack-lib "ox-reveal")
+(require 'ox-reveal)`
+
+
 
 **Contents**  
 + <a href="https://github.com/mattische/emacs/blob/master/README.md#get-latest-version-of-emacs-snapshot-on-ubuntu">get emacs snapshot for ubuntu</a> 
