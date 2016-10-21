@@ -1,3 +1,28 @@
+This is kinda obselete now - im running emacs live.
+Remember - emacs-live does not play well with emacs-snapshot. Use 24.5 or 25 instead.
+- http://overtone.github.io/emacs-live/
+  https://github.com/overtone/emacs-live
+- http://learnlispthehardway.org/book/1-01-09-emacs-live/#set-up-and-learn-emacs-live
+
+***Installing***
+If not using the *broscript*, beware to put aside your `~/.emacs.d and /.emacs`.
+Create `~/.emacs-live`
+Your stuff lives in `~/.live-packs/username-pack/`
+In there you'll find init.el (to be used in conjunction with ~/.emacs-live).
+i.e if your using ox-reveal with org-mode, load package archives in ~/.emacs-live;
+`(require 'package)
+add-to-list 'package-archives    
+			'("marmalade" . "https://marmalade.org/packages/") t) 
+add-to-list 'package-archives    
+			'("melpa" . "https://melpa.org/packages/")) 
+(add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/"))
+;; load packages installed with package managers
+(package-initialize)
+
+;;create this directory
+(live-append-packs '(~/.live-packs/mattische-pack))
+`
+
 **Contents**  
 + <a href="https://github.com/mattische/emacs/blob/master/README.md#get-latest-version-of-emacs-snapshot-on-ubuntu">get emacs snapshot for ubuntu</a> 
 + <a href="https://github.com/mattische/emacs/blob/master/README.md#go-autocomplete-in-emacs24-nox-ubuntu">emacs + go == true</a>
@@ -5,7 +30,13 @@
 + <a href="https://github.com/mattische/emacs/blob/master/README.md#line-number-and-increasing-font-size">Other emacs stuff (font size, line numbering etc)</a>
 
 _if on windows, your .emacs and .emacs.d resides in c:\Users\username\AppData\Roaming_
-
+(require 'package)
+		(add-to-list 'package-archives    
+			'("melpa" . "https://melpa.org/packages/"))    
+		(when (< emacs-major-version 24)  
+			;; For important compatibility libraries like cl-lib  
+			(add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))    
+		(package-initialize)
 
 
 #get latest version of emacs (snapshot) on ubuntu  
