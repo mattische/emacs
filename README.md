@@ -4,7 +4,8 @@ Remember - emacs-live does not play well with emacs-snapshot. Use 24.5 or 25 ins
   https://github.com/overtone/emacs-live
 - http://learnlispthehardway.org/book/1-01-09-emacs-live/#set-up-and-learn-emacs-live
 
-***Installing
+
+###Installing
 
 If not using the *broscript*, beware to put aside your `~/.emacs.d and /.emacs`.
 Create `~/.emacs-live`
@@ -25,7 +26,7 @@ add-to-list 'package-archives
 (live-append-packs '(~/.live-packs/mattische-pack))`
 
 
-***org-reveal
+###org-reveal
 Download ox-reveal from https://github.com/yjwen/org-reveal
 Place it in lib folder in ~/.live-packs/username-pack/lib/ox-reveal
 Load it in ~/live-packs/mattische-pack/init.el;
