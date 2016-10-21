@@ -38,10 +38,10 @@ Load it in ~/live-packs/mattische-pack/init.el;
 (require 'ox-reveal)
 ```
 Either download reveal.js, and invoke it, or set the path to it in every .org-file with;
-#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
+`#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/`
 
 and title;
-#+TITLE: my title 
+`#+TITLE: my title` 
 
 
 #Contents  
