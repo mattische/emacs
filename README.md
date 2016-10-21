@@ -13,7 +13,7 @@ Your stuff lives in `~/.live-packs/username-pack/`
 In there you'll find init.el (to be used in conjunction with ~/.emacs-live).
 i.e if your using ox-reveal with org-mode, load package archives in ~/.emacs-live;
 
-`(require 'package)
+```(require 'package)
 add-to-list 'package-archives    
 			'("marmalade" . "https://marmalade.org/packages/") t) 
 add-to-list 'package-archives    
@@ -23,15 +23,17 @@ add-to-list 'package-archives
 (package-initialize)
 
 ;;create this directory
-(live-append-packs '(~/.live-packs/mattische-pack))`
+(live-append-packs '(~/.live-packs/mattische-pack))
+```
 
 
 ###org-reveal
 Download ox-reveal from https://github.com/yjwen/org-reveal
 Place it in lib folder in ~/.live-packs/username-pack/lib/ox-reveal
 Load it in ~/live-packs/mattische-pack/init.el;
-`(live-add-pack-lib "ox-reveal")
-(require 'ox-reveal)`
+```(live-add-pack-lib "ox-reveal")
+(require 'ox-reveal)
+```
 
 
 
