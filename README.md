@@ -1,3 +1,4 @@
+OOPS!!!
 This is kinda obselete now - im running emacs live.
 Remember - emacs-live does not play well with emacs-snapshot. Use 24.5 or 25 instead.
 - http://overtone.github.io/emacs-live/
@@ -39,7 +40,7 @@ Load it in ~/live-packs/mattische-pack/init.el;
 
 
 
-**Contents**  
+#Contents  
 + <a href="https://github.com/mattische/emacs/blob/master/README.md#get-latest-version-of-emacs-snapshot-on-ubuntu">get emacs snapshot for ubuntu</a> 
 + <a href="https://github.com/mattische/emacs/blob/master/README.md#go-autocomplete-in-emacs24-nox-ubuntu">emacs + go == true</a>
 + <a href="https://github.com/mattische/emacs/blob/master/README.md#other-stuff">go stuff for emacs</a>
