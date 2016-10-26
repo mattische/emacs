@@ -1,10 +1,11 @@
 OOPS!!!
 This is kinda obselete now - im running emacs live.
-Remember - emacs-live does not play well with emacs-snapshot. Use 24.5 or 25 instead.
+Remember - emacs-live does not play well with emacs-snapshot. Use 24.5 (or 25) instead.
 - http://overtone.github.io/emacs-live/
   https://github.com/overtone/emacs-live
 - http://learnlispthehardway.org/book/1-01-09-emacs-live/#set-up-and-learn-emacs-live
 
+_On windows I had to use version >25._
 
 ###Installing
 
@@ -12,13 +13,13 @@ If not using the *broscript*, beware to put aside your `~/.emacs.d and /.emacs`.
 Create `~/.emacs-live`
 Your stuff lives in `~/.live-packs/username-pack/`
 In there you'll find init.el (to be used in conjunction with ~/.emacs-live).
-i.e if your using ox-reveal with org-mode, load package archives in ~/.emacs-live;
+i.e if your using ox-reveal with org-mode, load package archives in ~/.emacs-live (or, ~/.emacs.d/init.el);
 
 ```
 (require 'package)
-add-to-list 'package-archives    
+(add-to-list 'package-archives    
 			'("marmalade" . "https://marmalade.org/packages/") t) 
-add-to-list 'package-archives    
+(add-to-list 'package-archives    
 			'("melpa" . "https://melpa.org/packages/")) 
 (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/"))
 ;; load packages installed with package managers
@@ -44,6 +45,11 @@ Either download reveal.js, and invoke it, or set the path to it in every .org-fi
 and perhaps a title;
 
 `#+TITLE: my title` 
+
+
+
+##
+
 
 
 #Contents  
