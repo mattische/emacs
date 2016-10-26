@@ -30,7 +30,13 @@ i.e if your using ox-reveal with org-mode, load package archives in ~/.emacs-liv
 ```
 
 
-###org-reveal
+###org-mode and org-reveal
+
+**org-mode with emacs-live**
+see http://jr0cket.co.uk/2013/08/configure-emacs-org-mode-to-manage-your-tasks.html.html for instructions where to put your org file and notes file (and where to add emacs config data for it).
+
+
+**org-reveal**
 Download ox-reveal from https://github.com/yjwen/org-reveal
 Place it in lib folder in ~/.live-packs/username-pack/lib/ox-reveal
 Load it in ~/live-packs/mattische-pack/init.el;
