@@ -5,7 +5,7 @@ Remember - emacs-live does not play well with emacs-snapshot. Use 24.5 (or 25) i
   https://github.com/overtone/emacs-live
 - http://learnlispthehardway.org/book/1-01-09-emacs-live/#set-up-and-learn-emacs-live
 
-_On windows I had to use version >25._
+
 
 ###Installing
 
@@ -46,6 +46,14 @@ and perhaps a title;
 
 `#+TITLE: my title` 
 
+
+###Windows
+_On windows I had to use version >25._
+Your home folder is
+`C:\Users\your-username\AppData\Roaming`
+
+place emacs inside that folder (makes life a little easier).
+Place package archives in `~/.emacs.d/init.el` rather than ~/.emacs-live.el.
 
 
 ##
