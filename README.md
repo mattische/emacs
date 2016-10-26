@@ -26,7 +26,7 @@ i.e if your using ox-reveal with org-mode, load package archives in ~/.emacs-liv
 (package-initialize)
 
 ;;create this directory
-(live-append-packs '(~/.live-packs/mattische-pack))
+(live-append-packs '(~/.live-packs/yourUsername-pack))
 ```
 
 
@@ -34,6 +34,17 @@ i.e if your using ox-reveal with org-mode, load package archives in ~/.emacs-liv
 
 **org-mode with emacs-live**
 see http://jr0cket.co.uk/2013/08/configure-emacs-org-mode-to-manage-your-tasks.html.html for instructions where to put your org file and notes file (and where to add emacs config data for it).
+
+In short, create this file;
+`~/.live-packs/you-username/config/org-mode.el`
+inside it, tell where your notes/org file lives. For example;
+`(setq org-default-notes-file "~/my-org-files/my-todo-list.org")`
+
+Now, add this `(live-load-config-file "org-mode.el")` to `~/.live-packs/yourUsername/init.el` 
+
+Start adding notes and todos with `M-x org-capture`. Select default template t.
+
+
 
 
 **org-reveal**
