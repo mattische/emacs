@@ -66,7 +66,7 @@ and perhaps a title;
 
 ### Windows
 _On windows I had to use version >25._
-Your home folder is
+Your home folder is:
 `C:\Users\your-username\AppData\Roaming`
 
 place emacs inside that folder (makes life a little easier).
@@ -83,7 +83,9 @@ Place package archives in `~/.emacs.d/init.el` rather than ~/.emacs-live.el.
 + <a href="https://github.com/mattische/emacs/blob/master/README.md#other-stuff">go stuff for emacs</a>
 + <a href="https://github.com/mattische/emacs/blob/master/README.md#line-number-and-increasing-font-size">Other emacs stuff (font size, line numbering etc)</a>
 
-_if on windows, your .emacs and .emacs.d resides in c:\Users\username\AppData\Roaming_
+_if on windows, rememeber, your .emacs and .emacs.d resides in c:\Users\username\AppData\Roaming_
+
+```bash
 (require 'package)
 		(add-to-list 'package-archives    
 			'("melpa" . "https://melpa.org/packages/"))    
@@ -92,6 +94,7 @@ _if on windows, your .emacs and .emacs.d resides in c:\Users\username\AppData\Ro
 			(add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))    
 		(package-initialize)
 
+```
 
 ### get latest version of emacs (snapshot) on ubuntu  
 
