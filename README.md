@@ -1,4 +1,4 @@
-OOPS!!!
+_OOPS!!!_
 This is kinda obselete now - im running emacs live.
 Remember - emacs-live does not play well with emacs-snapshot. Use 24.5 (or 25) instead.
 - http://overtone.github.io/emacs-live/
@@ -7,7 +7,7 @@ Remember - emacs-live does not play well with emacs-snapshot. Use 24.5 (or 25) i
 
 
 
-###Installing
+### Installing
 
 If not using the *broscript*, beware to put aside your `~/.emacs.d and /.emacs`.
 Create `~/.emacs-live`
@@ -15,7 +15,7 @@ Your stuff lives in `~/.live-packs/username-pack/`
 In there you'll find init.el (to be used in conjunction with ~/.emacs-live).
 i.e if your using ox-reveal with org-mode, load package archives in ~/.emacs-live (or, ~/.emacs.d/init.el);
 
-```
+```bash
 (require 'package)
 (add-to-list 'package-archives    
 			'("marmalade" . "https://marmalade.org/packages/") t) 
@@ -30,7 +30,7 @@ i.e if your using ox-reveal with org-mode, load package archives in ~/.emacs-liv
 ```
 
 
-###org-mode and org-reveal
+### org-mode and org-reveal
 
 **org-mode with emacs-live**
 see http://jr0cket.co.uk/2013/08/configure-emacs-org-mode-to-manage-your-tasks.html.html for instructions where to put your org file and notes file (and where to add emacs config data for it).
@@ -64,7 +64,7 @@ and perhaps a title;
 `#+TITLE: my title` 
 
 
-###Windows
+### Windows
 _On windows I had to use version >25._
 Your home folder is
 `C:\Users\your-username\AppData\Roaming`
@@ -73,11 +73,11 @@ place emacs inside that folder (makes life a little easier).
 Place package archives in `~/.emacs.d/init.el` rather than ~/.emacs-live.el.
 
 
-##
+---
 
 
 
-#Contents  
+# Contents  
 + <a href="https://github.com/mattische/emacs/blob/master/README.md#get-latest-version-of-emacs-snapshot-on-ubuntu">get emacs snapshot for ubuntu</a> 
 + <a href="https://github.com/mattische/emacs/blob/master/README.md#go-autocomplete-in-emacs24-nox-ubuntu">emacs + go == true</a>
 + <a href="https://github.com/mattische/emacs/blob/master/README.md#other-stuff">go stuff for emacs</a>
@@ -93,7 +93,7 @@ _if on windows, your .emacs and .emacs.d resides in c:\Users\username\AppData\Ro
 		(package-initialize)
 
 
-#get latest version of emacs (snapshot) on ubuntu  
+### get latest version of emacs (snapshot) on ubuntu  
 
 Get the latest version (snapshot) of emacs by adding elisp repo:  
 	`$ sudo add-apt-repository -y ppa:ubuntu-elisp`  
@@ -104,7 +104,7 @@ The process of enabling go support in emacs snapshot, should be the same as for 
 <br>
 <br>
 
-#go-autocomplete in emacs24-nox (ubuntu)
+### go-autocomplete in emacs24-nox (ubuntu)
 + **go-code**  
    It is assumed that you have a working go environment, including GOPATH. Also, we need `gocode` - follow url below.    
    For the curious - see setup for GOPATH and gocode here; https://github.com/nsf/gocode#setup  
@@ -170,7 +170,7 @@ The process of enabling go support in emacs snapshot, should be the same as for 
 	Now you're good to go!
 
 
-#other stuff  
+### other stuff  
 You might also want to add hooks for building when saving and the go-oracle.  
 <br>
 <br>
@@ -184,7 +184,7 @@ Some other useful stuff;
 			go get -u -v sourcegraph.com/sqs/goreturns  
 			go get -u -v golang.org/x/tools/cmd/gorename  
 
-#line number and increasing font size  
+### line number and increasing font size  
 **increase font size**  
 from emacs 23 and above increasing font size is easy with this command inside emacs;
 	`C-x C-+`  
